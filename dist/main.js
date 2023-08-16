@@ -1,1 +1,1 @@
-alert("I wanted to tell you about the bee in your hair, but I am not going to!");
+(()=>{"use strict";document.querySelector("#content").appendChild(function(){const e=document.createElement("header"),t=document.createElement("h1");return t.textContent="Mango Nirvana",e.appendChild(t),["About","Menu","Contact"].forEach((function(t){let n=document.createElement("a");n.textContent=t,e.appendChild(n)})),e}())})();

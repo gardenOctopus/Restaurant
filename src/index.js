@@ -1,1 +1,3 @@
-alert('I wanted to tell you about the bee in your hair, but I am not going to!');
+import pageLoad from './pageLoad';
+
+pageLoad();
