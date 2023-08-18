@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #307a45ff;
+    color: #fff;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLink {
+    padding-left: 25px;
+}
+
+.headerLink:hover {
+    color: #fdc73aff;
+}
