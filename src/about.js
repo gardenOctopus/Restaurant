@@ -1,17 +1,22 @@
 import './style.css';
 
-function aboutPage() {
-    const aboutContent = document.createElement('div');
+function about() {
+    //Creates about Object
+    const about = document.createElement('div');
 
-    const aboutHeader = createElement('h2');
-    aboutHeader.textContent = 'About';
-    aboutContent.appendChild(aboutHeader);
+    //Creates Logo & Adds to about 
+    const pageTitle = document.createElement('h2');
+    pageTitle.textContent = 'About';
+    about.appendChild(pageTitle);
 
-    const aboutParagraph = createElement('p');
-    aboutParagraph.textContent = 'Topping cotton candy gummi bears cookie cookie sweet icing soufflé chupa chups. Candy canes chocolate bar cake tootsie roll cotton candy topping marzipan. Jelly beans bear claw jelly-o ice cream caramels jelly-o croissant. Cake sesame snaps chupa chups cookie pudding chupa chups topping chocolate cake shortbread.'
-    aboutContent.appendChild(aboutParagraph);
+    const p = document.createElement('p');
+    p.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+    about.appendChild(p);
 
-    return aboutContent;
+    return about;
 }
 
-export default aboutPage;
+export default about;
+
+
+
